@@ -7,6 +7,7 @@
     <title>MBA </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
+    <meta content="Online MBA Program" name="title">
     <meta content="" name="description">
 
     <!-- Favicon -->
@@ -29,7 +30,7 @@
     <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/londonmetonline@master/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/bbbootstrap/londonmetonline11@master/css/style.css" rel="stylesheet">
 
     <style type="text/css">
         .pardot-form{
@@ -38,6 +39,59 @@
         /* for cellphones */
 
     </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-249044965-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-249044965-1');
+</script>
+
+     <!-- Google tag (gtag.js) -->
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=G-RWCZPFT4J0"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-RWCZPFT4J0');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=AW-11021234058"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-11021234058');
+</script>
+<!-- Event snippet for Submit lead form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on
+the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+var callback = function () {
+if (typeof(url) != 'undefined') {
+window.location = url;
+}
+};
+gtag('event', 'conversion', {
+'send_to': 'AW-11021234058/WJOTCMHXx4QYEIrfqocp',
+'event_callback': callback
+});
+return false;
+}
+</script>
+
+<!-- Event snippet for Submit lead form conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11021234058/WJOTCMHXx4QYEIrfqocp'});
+</script>
+
+
 </head>
 
 <body>
@@ -54,12 +108,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#about" class="nav-item nav-link fs-6">About</a>
-                <a href="#why-us" class="second nav-item nav-link fs-6">Why us</a>
+                <!-- <a href="#about" class="nav-item nav-link fs-6">About</a>
+                <a href="#why-us" class="second nav-item nav-link fs-6">Why us</a> -->
                 <a href="#student-success" class="nav-item nav-link fs-6">Student success</a>
                  
             </div>
-            <a href="#form" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"><span style="font-size: 19px;">Get Started</span><i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#form-main" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"><span style="font-size: 19px;">Get Started</span><i class="fa fa-arrow-right ms-3"></i></a>
 
            
         </div>
@@ -69,10 +123,12 @@
 
     <!-- Carousel Start -->
     <div class="container-xxl p-0 mb-1">
-        <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel header-carousel position-relative" style="min-height: 500px;">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid carrer-advice-desktop" src="https://i.imgur.com/i4WdOUa.jpg">
-                <img class="img-fluid carrer-advice-mobile" src="https://i.imgur.com/JoY86SP.jpg">
+                <!-- <img class="img-fluid carrer-advice-desktop" src="https://i.imgur.com/i4WdOUa.jpg"> -->
+                <img class="img-fluid carrer-advice-desktop" src="https://i.ibb.co/yP9fZs8/WEB-1.webp">
+
+                <img class="img-fluid carrer-advice-mobile" src="https://i.ibb.co/yP9fZs8/WEB-1.webp">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center bg-image-background">
                     <div class="container-xxl">
                         <div class="row justify-content-end mr-auto -mt-3 content-margin">
@@ -93,11 +149,11 @@
                                 </div>
                                 
                                  <div class="d-flex flex-column gap-0 mt-3 mb-3"> 
-                                   <span class="text-white fs-4 fw-bolder nw">Next Batch Starts 23rd Jan 2023</span>
-                                   <span class="text-white fs-4 fw-bolder nw">Last Date to Apply 10th Jan 2023</span>
+                                   <span class="text-white fs-4 fw-bolder nw">Next Batch Starts 20th March 2023</span>
+                                   <span class="text-white fs-4 fw-bolder nw">Last Date to Apply 10th March 2023</span>
                                 </div>
                                 <div class="d-flex flex-end">
-                                    <a href="#form" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft fs-5 get-started">Get Started</a>
+                                    <a href="#form-main" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft fs-5 get-started">Get Started</a>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +161,8 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid carrer-advice-desktop" src="https://i.imgur.com/i4WdOUa.jpg">
-                <img class="img-fluid carrer-advice-mobile" src="https://i.imgur.com/JoY86SP.jpg">
+                <img class="img-fluid carrer-advice-desktop" src="https://i.imgur.com/ulJfJnz.jpg">
+                <img class="img-fluid carrer-advice-mobile" src="https://i.imgur.com/ulJfJnz.jpg">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center bg-image-background">
                     <div class="container-fluid">
                         <div class="row justify-content-end content-margin">
@@ -131,7 +187,7 @@
                                    
                                    <span class="text-white fs-4 fw-bolder nw">Last Date to Apply 10th Jan 2023</span>
                                 </div>
-                                <a href="#form" class="text-end btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft fs-5 get-started">Get Started</a>
+                                <a href="#form-main" class="text-end btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft fs-5 get-started">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -233,10 +289,10 @@
 
         <div class="container-xxl py-5 mt-3 wow fadeInUp  gradient-background">
 
-                <div class="text-center">
+                <div class="text-center" id="form-main">
 
                     <span class="text-white fs-2">Enquire Now</span>
-                    
+                    <p class="text-white carrer-advice-desktop">Let us help you make the right choices and create a program that helps you get the most out of your investment.<br> Our course Counsellors can help you get started, structure your study schedule and answer any other queries you <br>might have.</p>
 
                     <iframe id="Iframe" src=https://go.eca.edu.au/l/919353/2022-11-30/m2j5b width="100%" height="700" type="text/html" frameborder="0" allowTransparency="true"></iframe>
                     
@@ -250,7 +306,7 @@
 
     <!--Easy Step start-->
 
-             <div class="container-xxl py-5 mt-3 wow fadeInUp bg-white position-relative overflow-hidden" data-wow-delay="0.1s">
+            <!--  <div class="container-xxl py-5 mt-3 wow fadeInUp bg-white position-relative overflow-hidden" data-wow-delay="0.1s">
                 <div  class="dots-design-left">
                     <img src="https://wordpress-279127-2999474.cloudwaysapps.com/wp-content/uploads/2022/11/dots.png">
                 </div>
@@ -260,7 +316,7 @@
                 </div>
 
                 <div class="text-center">
-                  <!-- <h6 class="section-title bg-white text-center text-primary px-3">LONDON MET ONLINE</h6> -->
+                 
                   <h5 class="mb-5 fs-2 text-primary">3 Easy Steps to Get Started</h5>
                  
                 </div>
@@ -288,7 +344,7 @@
                             <span class="fs-5 mb-3 fw-bold">GET PROGRAM DETAILS</span>
                             <p class="mt-2">To get Program details please verify your email and Phone number.
 You will receive a confirmation email from connect@londonmetonline.ac.uk with detailed information about the Online MBA Program, course duration, curriculum, fee and student support.
-You will be assigned an exclusive Advisor from our team of experts who will connect with you over a call to answer all your queries and to guide and assist you all through your enrolment process.
+You will be assigned an exclusive Counsellor from our team of experts who will connect with you over a call to answer all your queries and to guide and assist you all through your enrolment process.
 </p>
                         </div>
                         </div>
@@ -316,25 +372,25 @@ To start your exciting journey with an Online MBA Degree Program from London Met
                 </div>
 
                 <div class="text-center d-flex flex-column">
-                    <span class="fw-bold fs-4 carrer-advice-desktop">The batch size is limited <br>and is filling up fast.</span>
+                    <span class="fw-bold fs-4 carrer-advice-desktop">The batch size is limited and is filling up fast.</span>
                     <span class="fw-bold fs-4 carrer-advice-mobile">The batch size is limited <br>and is filling up fast.</span>
                     <span class="fw-bold fs-4 mt-2">Don’t lose out this opportunity to enrol early and get Fee concessions on your entire program.</span>
                     <div class="row d-flex justify-content-center">
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                             <a href="#form" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft mt-3">Get Started</a>
                         </div>
                     </div>
                 </div>
               
 
-            </div>
+            </div> -->
 
     <!--Easy Step end-->
 
 
     <!--About London Metropolitan University start-->
 
-             <div class="container-xxl py-5 mt-3 wow fadeInUp bg-white position-relative overflow-hidden" data-wow-delay="0.1s" id="about">
+            <!--  <div class="container-xxl py-5 mt-3 wow fadeInUp bg-white position-relative overflow-hidden" data-wow-delay="0.1s" id="about">
                 <div  class="dots-design-left">
                     <img src="https://wordpress-279127-2999474.cloudwaysapps.com/wp-content/uploads/2022/11/dots.png">
                 </div>
@@ -368,7 +424,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
                 </div>
                 </div>
 
-            </div>
+            </div> -->
 
     <!--About London Metropolitan University end-->
 
@@ -377,7 +433,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
 
 
     <!--Why Us start-->
-            <div class="container-xxl py-5 mt-3 wow fadeInUp gradient-background" data-wow-delay="0.1s" id="why-us">
+           <!--  <div class="container-xxl py-5 mt-3 wow fadeInUp gradient-background" data-wow-delay="0.1s" id="why-us">
 
                <div class="d-flex flex-column gap-2 p-5">
                     <span class="fs-5 fw-bolder text-white">LONDON MET ONLINE</span>
@@ -469,7 +525,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
                                 
                             </div>
                     </div>
-               </div>
+               </div> -->
 
 
 
@@ -624,32 +680,32 @@ To start your exciting journey with an Online MBA Degree Program from London Met
 
 
 
-    <!-- Consult With Our Career Advisors start-->
+    <!-- Consult With Our Career Counsellors start-->
 
 
-            <div class="container-xxl py-5 mt-3 wow fadeInUp  gradient-background">
+            <!-- <div class="container-xxl py-5 mt-3 wow fadeInUp  gradient-background">
 
                 <div class="text-center">
 
-                    <span class="text-white fs-2">Consult With Our Career Advisors</span>
-                    <p class="text-white carrer-advice-desktop">Let us help you make the right choices and create a program that helps you get the most out of your investment.<br> Our course advisors can help you get started, structure your study schedule and answer any other queries you <br>might have.</p>
+                    <span class="text-white fs-2">Consult With Our Career Counsellors</span>
+                    <p class="text-white carrer-advice-desktop">Let us help you make the right choices and create a program that helps you get the most out of your investment.<br> Our course Counsellors can help you get started, structure your study schedule and answer any other queries you <br>might have.</p>
 
-                    <p class="text-white carrer-advice-mobile">Let us help you make the right choices and create a program that helps you get the most out of your investment.Our course advisors can help you get started, structure your study schedule and answer any other queries you might have.</p>
+                    <p class="text-white carrer-advice-mobile">Let us help you make the right choices and create a program that helps you get the most out of your investment.Our course Counsellors can help you get started, structure your study schedule and answer any other queries you might have.</p>
 
                     <iframe src=https://go.eca.edu.au/l/919353/2022-11-30/m2jzq width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
                     
                 </div>
                 
-            </div>
+            </div> -->
 
 
-    <!-- Consult With Our Career Advisors end-->
+    <!-- Consult With Our Career Counsellors end-->
 
 
 
 
     <!--Why Us start-->
-            <div class="container-xxl py-5 mt-3 wow fadeInUp back-image" style="background-repeat: no-repeat; background-color: #000;" data-wow-delay="0.1s">
+            <!-- <div class="container-xxl py-5 mt-3 wow fadeInUp back-image" style="background-repeat: no-repeat; background-color: #000;" data-wow-delay="0.1s">
 
                <div class="d-flex flex-column gap-2 p-5">
                     <span class="fs-6 text-primary">LONDON MET ONLINE</span>
@@ -707,7 +763,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
 
 
 
-            </div>    
+            </div>  -->   
     <!--Why us end-->
 
 
@@ -828,7 +884,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     </h2>
     <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Your entire program fees would depend upon various factors such as early bird concessions, scholarships earned, like your present country, your selected course and your mode of study, thus we recommend filling in your inquiry and speaking to our expert advisor for further details.
+        Your entire program fees would depend upon various factors such as early bird concessions, scholarships earned, like your present country, your selected course and your mode of study, thus we recommend filling in your inquiry and speaking to our expert Counsellor for further details.
       </div>
     </div>
   </div>
@@ -841,12 +897,12 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     </h2>
     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        No, Your degree will read “Master of Business Administration” with no reference to the mode of delivery. View Sample Degree
+        No, Your degree will read “Master of Business Administration” with no reference to the mode of delivery. <a href="https://www.dropbox.com/s/xfh5aijuge1utn8/Master%20of%20Business%20Administration%20Sample%20Certificate.pdf?dl=1" style="color:#000">View Sample Degree</a>
       </div>
     </div>
   </div>
 
-  <div class="accordion-item">
+  <!-- <div class="accordion-item">
     <h2 class="accordion-header" id="heading6">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
         What happens if I miss one of the lectures?
@@ -857,7 +913,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
         All lectures are recorded and can be accessed remotely.
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading7">
@@ -875,12 +931,12 @@ To start your exciting journey with an Online MBA Degree Program from London Met
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading8">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-        Can I attend In-campus convocation?
+        Can I attend On-campus convocation?
       </button>
     </h2>
     <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Yes, upon successfully completing the Online MBA academic program you may apply to attend the In-campus convocation ceremony. 
+        Yes, upon successfully completing the Online MBA academic program you may apply to attend the On-campus convocation ceremony. 
       </div>
     </div>
   </div>
@@ -888,7 +944,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading9">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-        Will I receive a physical copy of the degree from the university?
+        Will I receive a physical copy of the degree?
       </button>
     </h2>
     <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
@@ -898,7 +954,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     </div>
   </div>
 
-  <div class="accordion-item">
+  <!-- <div class="accordion-item">
     <h2 class="accordion-header" id="heading10">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
        What is the role of ECA in this entire Online MBA program?
@@ -909,7 +965,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
         ECA is one of the world's best education provider and will be the delivery partner for the entire Online MBA program in collaboration with LMU and would work according to the rules and regulations of the University.
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading11">
@@ -919,7 +975,8 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     </h2>
     <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Feel free to reach out to our career advisors by using the form below. Alternatively, you can also call us at <a href="tel:917487954595" class="tel-btn">+917487954595</a>
+        <!-- Feel free to reach out to our career Counsellors by using the form below. Alternatively, you can also call us at <a href="tel:917487954595" class="tel-btn">+917487954595</a> -->
+        Feel free to reach out to our Career Counsellors by filling up the <a href="#form-main">enquiry form.</a> Or you can email us at <a href="emailTo:counsellor@londonmetonline.ac.uk">counsellor@londonmetonline.ac.uk
       </div>
     </div>
   </div>
@@ -991,460 +1048,6 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     <!-- About End -->
         
 
-
-    <!-- Service Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Service End -->
-
-
-    <!-- About Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to eLEARNING</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="#">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- About End -->
-
-
-    <!-- Categories Start -->
-    <!-- <div class="container-xxl py-5 category">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-                <h1 class="mb-5">Courses Categories</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="#">
-                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Web Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="#">
-                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Graphic Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="#">
-                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Video Editing</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="#">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                            <h5 class="m-0">Online Marketing</h5>
-                            <small class="text-primary">49 Courses</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Categories Start -->
-
-
-    <!-- Courses Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
-                <h1 class="mb-5">Popular Courses</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-1.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-2.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-3.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Courses End -->
-
-
-    <!-- Team Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-   <!--  <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Testimonial End -->
-        
-
-    <!-- Footer Start -->
-    <!-- <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="#">About Us</a>
-                    <a class="btn btn-link" href="#">Contact Us</a>
-                    <a class="btn btn-link" href="#">Privacy Policy</a>
-                    <a class="btn btn-link" href="#">Terms & Condition</a>
-                    <a class="btn btn-link" href="#">FAQs & Help</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
- 
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com/">HTML Codex</a><br><br>
-                        Distributed By <a class="border-bottom" href="https://themewagon.com/">ThemeWagon</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="#">Home</a>
-                            <a href="#">Cookies</a>
-                            <a href="#">Help</a>
-                            <a href="#">FQAs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Footer End -->
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -1458,7 +1061,7 @@ To start your exciting journey with an Online MBA Degree Program from London Met
     <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/londonmetonline@master/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/londonmetonline11@master/js/main.js"></script>
 </body>
  
 </html>
